@@ -1,0 +1,29 @@
+cores primárias - azul, vermelho, amarelo;
+cores secundárias- verde, violeta, laranja;
+cores terciárias - toda cor entre uma cor primária e secundária "amarelo-esverdeado" - tons pastéis
+
+temperaturas de cores:
+
+do amarelo até o vermelho-arrocheado = cores quentes
+do violeta ao amarelo-esverdeado = cores frias
+
+
+harmonia - paleta de cores: de 3 a 5 cores (média de 4 cores, exceto preto e branco)
+
+cores complementares: cores que mais constrata entre sí - cor diretamente oposta do círculo cromático
+
+cores análogas: são cores que não possuem tanto contraste, mas são similáres - cor diretamente ao lado da cor principal no círculo cromático
+
+cores análogas e uma complementar
+
+cores análogas relacionadas: são cores que são análogas, e uma outra cor que é similar mas possui um contraste. Duas cores "vizinhas", "pula uma casa do círculo" e seleciona essa cor como contraste.
+
+cores intercaladas: literalmente tá no título.
+
+cores triádicas: escolhe uma cor, pula 3 cores e pega a outra cor, repete mais uma vez, fazendo um triângulo equilátero. 
+
+cores em quadrado: escolhe uma cor, pula 2 cores e pega a outra cor, repete até formar um quadrado no meio do círculo.
+
+cores tetrádicas: escolhe uma cor, encontra a cor complementar, escolhe outra cor, pega o complementar dessa cor, formando um retângulo.
+
+monocromia: trabalha com uma cor, modificando a saturação e o brilho, criando outras cores. 

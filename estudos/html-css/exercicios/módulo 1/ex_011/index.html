@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias me HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="foto_g">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5 </p>
+    <audio preload="metadata" controls> <!--existe a opção de autoplay para tocar imediatamente, e opção de loop-->
+        <source src="midia/MONTAGEM ARABE ARREBATADOR 2 ---- - DJ STDZ _ SHONCI(MP3_320K).mp3" type="audio/mpeg">
+        <!--para mais opções de audio, basta colocar outros sources dentro da tag audio. Extenções: audio/mpeg; audio/ogg; audio/wav-->
+        <p>Seu navegador é veio e não tá tocando a braba, veinho</p>
+    </audio>
+</body>
+</html>

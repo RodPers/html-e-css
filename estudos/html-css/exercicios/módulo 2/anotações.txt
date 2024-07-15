@@ -1,0 +1,59 @@
+      SELETORES PERSONALIZADOS
+
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+        
+------------------------------------------------------------
+
+MODELO DE CAIXAS
+
+aninhamento - "encaixotar" caixas
+                          ___width__
+<h1>Olá, mundo!</h1> ->  |Olá, mundo| height 
+                          ¯¯¯¯¯¯¯¯¯¯
+border: linha em volta do conteúdo
+
+padding: espaço entre a borda e o conteúdo "recheio do bolo"
+
+margin: espaço externo à borda. 
+
+outline: contorno relacionada à borda.
+
+------------------------------------------------------------
+
+TIPOS DE CAIXAS
+
+box-level: esse tipo sempre cria novas caixas em baixo de uma caixa anterior, e ocupa a largura total da tela do navegador. Ex.:
+<p> BLA BLA BLA BLA BLA </p> <!-- a nova caixa vai ser criada na linha imediatamente abaixo ao da caixa - o parágrafo - anterior. -->
+<br> 
+<p> kjsdajksdas </p>
+
+Print:
+
+BLA BLA BLA BLA BLA
+
+kjsdajksdas
+
+exemplos de tag: div, h1 ... h6, p, main, header, nav, article, aside, footer, form, video
+
+____________________________________________________________________________
+
+inline-level: ele não pula a próxima linha, desenha uma caixa exatamente do tamanho do elemento e continua a linha. Ex.:
+
+<p> BLA BLA BLA BLA BLA </p> <br> <p> kjsdajksdas </p>
+
+Print:
+
+BLA BLA BLA BLA BLA   kjsdajksdas
+
+exemplos de tag: span, a, code, small, strong, em, sup-sub, label, button, input, select
+
+----------------------------------------------------------------------------
+
+'margin: auto' deixa a caixa centralizada no meio do site
+
+------------------------------------------------------------------------------------------
+imagens por padrão NÃO SÃO blocos, então, para centralizar ela, é preciso usar o display = block e margin = auto

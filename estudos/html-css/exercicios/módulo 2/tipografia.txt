@@ -1,0 +1,17 @@
+tipografia
+
+anatomia dos tipos
+
+Tamanhos: altura das maiúsculas, altura-x, ascendente, descendente, corpo
+
+anatomicos métricos: serifa - cria uma linha imaginária facilitando a leitura das palavras
+
+anatomias geométricas:  filete, haste, arco, esporão, vértice, terminal, braço, perna, pé, espinha, barriga, olho, orelha, cauda.
+
+Glifo é uma letra num alfabeto, ou caracter. 
+
+fonte é o conjunto de glifos de um alfabeto.
+
+família tipográfica ( ou "variações") : são diferentes formas de representar o mesmo glífo na mesma fonte. 
+
+categorias de fonte: serifada (textos em papel), sans-serif (textos longos em tela), monoespaçada (glifos possuem a mesma largura), handwriting (fonte de script ou "scriptada"), fontes comemorativas (ou fontes de display)

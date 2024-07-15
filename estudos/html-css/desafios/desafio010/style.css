@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600&display=swap');
+
+body{
+    margin: 0%;
+    padding-top: 0;;
+    background-color: rgb(145, 253, 192);
+}
+
+header{
+    background-image: linear-gradient(to top,rgb(0, 67, 0), rgb(145, 253, 192));
+    box-shadow: 10px 3px 20px 5px black;
+    
+}
+nav > a{
+    font-family: sans-serif;
+    padding: 15px;
+    color: white;
+}
+nav > a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+main{
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    box-shadow: 0px 14px 20px 4px black
+}
+h1.main, h2.main{
+    color: darkgreen;
+    font-family: Idroid;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h2.main{
+    font-family: Idroid;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: linear-gradient(to right, rgb(171, 255, 202), white);
+}
+
+h1.header{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+h2.header{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+article, p{
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 15px;
+}
+strong{
+    color: darkgreen;
+}
+
+a{
+    color: darkgreen;
+    text-decoration: solid;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+picture > img{
+     margin: auto;
+     display: block;
+}
+.video{
+    text-align: center;
+    background-color: rgb(0, 67, 0);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+div.caixa{
+    margin: 10px;
+    background-color: rgb(144, 238, 174);
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+div.caixa > h1{
+    background-color: rgb(0, 225, 97);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.lista_1{
+    width: 286px;
+    display: inline-block;
+    font-family: sans-serif;
+    
+
+}
+.lista_2{
+    width: 286px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+footer{
+    color: white;
+    padding: 5px;
+    background-color: darkgreen;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+footer > strong{
+    color: white;
+}

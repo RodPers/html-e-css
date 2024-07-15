@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0);
+        }
+        body {
+            font-family: sans-serif;
+            background-color: grey;
+            margin: 0px;
+
+        }
+
+        header {
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 3px;
+            box-shadow: 5px 4px 6px 2px rgba(0, 0, 0, 0.375)
+
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            font-style: italic;
+            color: dimgrey;
+        }
+
+        main {
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+
+        section#assuntos {
+            display: block;
+            text-align: end;
+
+        }
+
+        .idassuntos {
+            text-decoration: none;
+            color: grey;
+            padding: 2px;
+        }
+
+        .idassuntos:hover {
+            text-decoration: underline;
+            font-style: italic;
+            color: black;
+        }
+
+        article {
+            background-color: white;
+            text-align: justify;
+            padding: 3px;
+        }
+
+        article>aside {
+            font-family: monospace;
+            color: rgb(75, 75, 75);
+            background-color: lightgrey;
+            text-align: center;
+
+        }
+
+
+        footer {
+            background-color: darkgrey;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        div.bola{
+            margin: 10px;
+            margin-left: 0px;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: white;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="#" class="idassuntos">Esportes</a> <a href="#" class="idassuntos">Política</a> <a href="#"
+                    class="idassuntos">Tecnologia</a></p>
+        </section>
+        <section id="noticias">
+        </section>
+        <article>
+            <h2>Bala pirulito pão doce no churrasco faz carregador passar mal?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit quisquam, blanditiis excepturi
+                numquam tenetur rem deserunt temporibus nesciunt velit. Sunt repudiandae velit eveniet asperiores fuga
+                fugit, eaque consequatur odio.</p>
+            <aside>
+                <p>artigo escrito por Josana Vahenstofen</p>
+            </aside>
+        </article>
+        <article>
+            <h2>beibe beibe do biruleibe leibe?</h2>
+            <p>Vai t toma no cu, rapá</p>
+            <aside>
+                <p>artigo escrito por Diogo Defante</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>desenvolvido por Rod.</p>
+    </footer>
+    <div class="bola">
+    </div>
+</body>
+
+</html>
