@@ -7,15 +7,30 @@
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
+            
             background-image: url(imagens/wallpaper002.jpg);
+            
             background-position: center top;
+            
             background-repeat: no-repeat;
-            background-size: cover; /* corta a imagem, mas cobre toda a tela. Ainda tem auto, tamanho em px/%, contain mostra 100% da imagem, mas adapta a tela para que ela fique a mostra, o oposto do cover*/ 
+            
+            background-size: cover; /* corta a imagem, mas cobre toda a tela. Ainda tem auto, tamanho em px/%, contain mostra 100% da imagem, mas adapta a tela para que ela fique a mostra, o oposto do cover 
+            
+            background-attachment: fixed;  fixa o background, sem que exista rolagem
+            
+            shorthand background 
+            
+            color > image > position > repeat > size* > attachment
+            */ 
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
